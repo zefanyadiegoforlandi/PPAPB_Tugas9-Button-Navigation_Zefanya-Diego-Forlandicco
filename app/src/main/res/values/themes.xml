@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PPAPB_Tugas9ButtonNavigation_ZefanyaDiegoForlandicco" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#525BFF</item>
+    </style>
+    <style name="FragmentTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.PPAPB_Tugas9ButtonNavigation_ZefanyaDiegoForlandicco" parent="Base.Theme.PPAPB_Tugas9ButtonNavigation_ZefanyaDiegoForlandicco" />
+
+    <style name="customActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CustomActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/biru</item>
+        <item name="titleTextStyle">@style/customActionBarTitle</item>
+    </style>
+
+    <style name="PPAPB_Tugas9ButtonNavigation_ZefanyaDiegoForlandicco" parent="Base.Theme.PPAPB_Tugas9ButtonNavigation_ZefanyaDiegoForlandicco">
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+        <item name="title">TravelApp</item>
+    </style>
+
+</resources>

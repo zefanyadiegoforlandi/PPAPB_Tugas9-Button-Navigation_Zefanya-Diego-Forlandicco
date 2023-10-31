@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to\nHome Page"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:lineSpacingExtra="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="80dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/custom_button_drawable"
+        android:text="Explore Destination"
+        android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
