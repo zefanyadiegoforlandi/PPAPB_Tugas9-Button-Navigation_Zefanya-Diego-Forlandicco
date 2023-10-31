@@ -41,7 +41,7 @@ class OrderFragment : Fragment() {
                     res -> JnsTicket.setText(res) // Mengatur teks pada JnsTicket dengan data dari LiveData.
             }
 
-            // Menetapkan OnClickListener untuk elemen btnBuyticket.
+            // Menetapkan OnClickListener untuk elemen btnBuy.
             btnBuy.setOnClickListener {
                 // Navigasi kembali ke tata letak sebelumnya.
                 findNavController().navigateUp()

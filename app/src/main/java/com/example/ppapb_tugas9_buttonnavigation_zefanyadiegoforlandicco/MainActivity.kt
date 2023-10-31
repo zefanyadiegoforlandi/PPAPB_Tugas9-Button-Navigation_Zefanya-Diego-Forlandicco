@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             // Mencari NavController untuk mengontrol navigasi antara fragmen.
             val navController = findNavController(R.id.nav_host_fragment)
 
-            // Mengkonfigurasi BottomNavigationView agar dapat berinteraksi dengan NavController.
+            // Mengkonfigurasi BottomNavigationView sehingga dapat berinteraksi dengan NavController.
             bottonNavigationView.setupWithNavController(navController)
         }
     }

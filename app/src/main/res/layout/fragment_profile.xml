@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="22/505523/SV/21815"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:gravity="center">
 
     </TextView>

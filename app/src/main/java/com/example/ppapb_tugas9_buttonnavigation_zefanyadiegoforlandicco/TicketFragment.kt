@@ -27,7 +27,7 @@ class TicketFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         with(binding) {
-            // Membuat tindakan (action) untuk tombol btnBuyticketShutup.
+            // Membuat tindakan (action) untuk tombol btnBuyticket.
             val action = TicketFragmentDirections.actionTicketFragmentToOrderFragment()
             btnBuyticketShutup.setOnClickListener {
                 // Melakukan navigasi ke fragmen OrderFragment saat tombol diklik.

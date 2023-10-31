@@ -14,7 +14,7 @@ class ProfileFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Mengembalikan tata letak untuk fragmen ini.
+        // Mengembalikan tata letak untuk fragmen.
         return inflater.inflate(R.layout.fragment_profile, container, false)
     }
 }

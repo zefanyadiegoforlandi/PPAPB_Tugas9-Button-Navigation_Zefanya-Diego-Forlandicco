@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 class HomeFragment : Fragment() {
-    //Kelas HomeFragment adalah sebuah fragmen yang digunakan untuk menampilkan konten di halaman beranda.//
+    //Kelas HomeFragment adalah sebuah fragmen yang digunakan untuk menampilkan konten di halaman beranda.
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

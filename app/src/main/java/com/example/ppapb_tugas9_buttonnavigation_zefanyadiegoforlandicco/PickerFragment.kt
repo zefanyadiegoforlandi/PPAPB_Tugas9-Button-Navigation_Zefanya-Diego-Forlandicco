@@ -64,7 +64,7 @@ class PickerFragment : Fragment() {
                 selectedItem = ticketAdapter.getItem(position).toString()
             }
 
-            // Menetapkan OnClickListener untuk elemen btnBuy.
+            // Menetapkan OnClickListener pada elemen btnBuy.
             btnBuy.setOnClickListener {
                 // Menyimpan data terpilih dalam LiveData dengan kunci "ticket".
                 findNavController().apply {
